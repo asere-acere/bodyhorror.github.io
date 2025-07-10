@@ -42,7 +42,8 @@ button{
     cursor: pointer;
 }
 #pitches{
-  font-size: 18px;}
+  font-size: 18px;
+}
 
 footer
 {
@@ -54,7 +55,6 @@ footer
       padding: 10px;
     text-align: center;
     font-size: 16px;
-}
 }
 
     
