@@ -8,6 +8,11 @@ body {
   text-align: center;
 }
 
+#video{
+  margin-top: 25px
+  align-items: center;
+}
+
 head{background-color: #151414;
 color: antiquewhite;
 text-align: center;
@@ -20,7 +25,7 @@ h1,h2,h3{
 
 }
 
-video{align-items: center;}
+
 
 p{font-family: 'Courier New', Courier, monospace;}
 
