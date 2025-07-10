@@ -42,8 +42,11 @@ button{
 }
 #pitches{
   font-size: 18px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
+video{width="1120" height="630"}
 footer
 {
     background-color:violet;
@@ -57,7 +60,3 @@ footer
 }
 
     
-
-
-
-
