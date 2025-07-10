@@ -25,7 +25,11 @@ h1,h2,h3{
 
 }
 
-
+#square {width: 100px; /* ou toute autre taille désirée */
+  height: 100px; /* doit être égal à la largeur */
+  background-color: rgb(59, 28, 59); /* Couleur de fond grise */
+  text-align: center; /* Centrer le texte horizontalement */
+  line-height: 100px; /* Centrer l
 
 p{font-family: 'Courier New', Courier, monospace;}
 
