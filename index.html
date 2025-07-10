@@ -8,12 +8,16 @@
          <div class = "text"> 
             <p> The Body Horror Show est un projet pluridisciplinaire (danse, théâtre, créatures) performé de courtes histoires de métamorphoses horrifiques.</p>
           </div>
+    <div>
         <video src="Untitled.mp4" , rel="preload", control width="1000"> </video>
+      </div>
   </head>
   
   <body>
      <container>
+       <div>
             <button class="generator" onclick= "maFonction()"> <strong> Génerez un scénario imaginaire</strong> </button>
+         </div>
                <script> 
                   function maFonction() { const tests = ["<p> <strong>Lieu</strong>: Un appartement </p> <p> <strong>Transformation</strong>: Abeilles </p> <p> <strong>Pitch</strong>: Au matin de leurs 17 ans, deux sœurs jumelles se transforment en abeille. Or l'une se transforme en reine et l'autre en ouvrière.</p>", "<p> <strong>Lieu</strong>: Un zoo abandonné </p> <p> <strong>Transformation</strong>: la peau transparente </p> <p> <strong>Pitch</strong>: En pleine session d'urbex un jeune homme retrouve un ami d'enfance perdu de vu qui y squatte. Le premier fait des plans sur la comete rêvant de leur vie d'antant. Le deuxième peine à lui expliquer qu'il y a des bonnes et des mauvaises metamorphoses, or la sienne ne pourra jamais être acceptée sociétalement. </p>", "<p> <strong>Lieu</strong>: Maternité </p> <p> <strong>Transformation</strong>: Seins serpents </p> <p> <strong>Pitch</strong>: Une femme vient d'accoucher. Elle ne parvient pas à allaiter car ses seins se transforment en serpent. Sa belle-mère vient lui rendre visite, et afin de pouvoir s'occuper de son fils la mère demande à sa belle-mère de lui couper les seins.</p>"] ; 
                     const random = Math.floor(Math.random() * tests.length) ; document.getElementById("pitches").innerHTML = tests[random] }
